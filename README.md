@@ -2,6 +2,10 @@
 
 Portfolio case study built on the public **theLook eCommerce** dataset (BigQuery). The goal: turn raw orders, customers, products and web events into an interactive Tableau "Sales Cockpit" that answers *how are we trending, who buys, what sells, and what leaks*.
 
+**Live dashboard:** [Open on Tableau Public](https://public.tableau.com/views/Salesvs_TargetDashboardAccelerator_17932789302400/1Performance)
+
+![Cockpit](images/cockpit.png)
+
 ## What is in this repo
 
 | Path | What it is |
@@ -9,15 +13,12 @@ Portfolio case study built on the public **theLook eCommerce** dataset (BigQuery
 | `data/theLook_orders_flat.csv.gz` | Order-item level analytical table (181,397 rows, 38 columns) built from orders, order_items, users, products and distribution centers |
 | `docs/metric_definitions.md` | How every KPI is calculated (net revenue, repeat rate, return rate, targets, period logic) |
 | `images/` | Dashboard screenshots |
-| `Thelooks new.twbx` | Tableau workbook (168 MB, too large for a normal commit: attach it under GitHub Releases or use Git LFS) |
 
 ## Dashboard pages
 
-- **Cockpit**: Sales, Margin, Margin %, Cost, Total Orders, Repeat Rate, Return Rate, Avg Order Value, with a Period selector (This Year / This Month / Total Period) and YoY or MoM change.
+- **Cockpit**: Sales, Margin, Margin %, Cost, Total Orders, Repeat Rate, Return Rate, Avg Order Value and Session to Purchase, with a Period selector (This Year / This Month / Total Period) and YoY or MoM change.
 - **Customer Insight**: top customers and spend.
 - **Product Insight**: category, brand and product-line performance.
-
-![Cockpit](images/cockpit.png)
 
 ## Key facts (data to 2 Aug 2026)
 
